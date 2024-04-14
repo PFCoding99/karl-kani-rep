@@ -8,7 +8,7 @@ class Nav extends HTMLElement {
           nav {
             height: 60px;
             display: flex;
-            align-items: center;
+            align-items: ;
             justify-content: center;
             background-color:  #0000;
           
@@ -20,7 +20,7 @@ class Nav extends HTMLElement {
   
           a {
             font-weight: 700;
-            margin: 0 25px;
+            margin: 0 5px;
             color: #000000;
             text-decoration: none;
             
