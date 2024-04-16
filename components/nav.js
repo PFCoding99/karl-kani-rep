@@ -38,8 +38,8 @@ class Nav extends HTMLElement {
     </style>
     <header>
     <nav class="myNav">
-    <a href="index.html"></a>
-    <img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" />
+    
+    <a href="index.html"><img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" </a>
     <ul class="NavUL"> 
       <li><a href="BIB.html">B.I.B COLLECTION</a></li>
       <li><a href="LIFE.html">LIFE COLLECTION</a></li>
@@ -47,6 +47,7 @@ class Nav extends HTMLElement {
       <li><a href="women.html">WOMEN</a></li>
       <li><a href="acc.html">ACCESSORIES</a></li>
       <li><a href="sale.html">SALE</a></li>
+      
     </ul>
   </nav>
     </header>
