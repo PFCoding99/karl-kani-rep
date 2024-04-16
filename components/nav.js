@@ -22,7 +22,7 @@ class Nav extends HTMLElement {
     }
   
     a {
-      font-size:40px;
+      font-size:29px;
       font-weight: 350;
       margin: 0 5px;
       color: #000000;
@@ -40,7 +40,7 @@ class Nav extends HTMLElement {
     <header>
     <nav class="myNav">
     
-    <a href="index.html"><img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" width="300" height="250"></a>
+    <a href="index.html"><img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" width="220px" height="90px"></a>
     <ul class="NavUL"> 
       <li><a href="BIB.html">B.I.B COLLECTION</a></li>
       <li><a href="LIFE.html">LIFE COLLECTION</a></li>
