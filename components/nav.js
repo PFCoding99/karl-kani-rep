@@ -4,7 +4,8 @@ class Nav extends HTMLElement {
   }
 
   connectedCallback() {
-    this.innerHTML = `<style>nav {
+    this.innerHTML = `<style>
+    nav {
       height: 70px;
       display: flex;
       align-items: left; 
