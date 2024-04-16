@@ -6,6 +6,7 @@ class Nav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<style>
     nav {
+      padding:15px;
       height: 100px;
       display: flex;
       align-items: left; 
