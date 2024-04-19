@@ -1,10 +1,10 @@
+"use strict";
 class Nav extends HTMLElement {
-  constructor() {
-    super();
-  }
-
-  connectedCallback() {
-    this.innerHTML = `<style>
+    constructor() {
+        super();
+    }
+    connectedCallback() {
+        this.innerHTML = `<style>
       nav {
         padding: 15px;
         height: 100px;
@@ -23,7 +23,7 @@ class Nav extends HTMLElement {
 
       a {
         font-size: 29px;
-        font-weight: 450;
+        font-weight: 350;
         margin: 0 5px;
         color: #000000;
         text-decoration: none;
@@ -33,7 +33,7 @@ class Nav extends HTMLElement {
       a:hover {
         padding-bottom: 5px;
         box-shadow: inset 0 -2px 0 0 #fff;
-      }
+      } console.log()
     </style>
     <header>
       <nav class="myNav">
@@ -45,12 +45,11 @@ class Nav extends HTMLElement {
           <li><a href="women.html">WOMEN</a></li>
           <li><a href="acc.html">ACCESSORIES</a></li>
           <li><a href="sale.html">SALE</a></li>
-          <a href="basket.html"><img src="../assets/img/basketkarlkani.png"</a>
-          <a href="account.html><img src="../assets/img/accountkarlkani.png"></a>
+          <a href="basket.html"><img src="../assets/img/basketkarlkani.png</a></li>
+          <a href="account.html><img src="../assets/img/accountkarlkani.png
         </ul>
       </nav>
     </header>`;
-  }
+    }
 }
-
 customElements.define("nav-component", Nav);
