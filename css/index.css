@@ -1,22 +1,29 @@
- *{
+* {
   margin: 0;
+}
+
+.marquee-content:hover .header {
+  animation-play-state: paused;
 }
 
 .header {
   padding: 15px;
-  height: auto;
-  display: flex;
-  align-items: center;
-  color: antiquewhite;
-  background-color: #000000;
-  animation: moveText 15s linear infinite;
+  display: inline-block; 
+  color: rgba(234,234,234,255);
+  background-color: black;
+  text-transform: uppercase;
   white-space: nowrap;
+  animation: moveText 25s linear infinite;
 }
 
 .marquee-content {
+  overflow: hidden; 
+  white-space: nowrap;
   font-size: 29px;
-  font-weight: 350;
-  color: rgb(255, 255, 255);
+  font: caption;
+  font-weight: 750;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -25,10 +32,6 @@
 .flex {
   display: flex;
   flex-direction: row;
-}
-a:hover {
-  padding-bottom: 5px;
-  box-shadow: inset 0 -2px 0 0 white;
 }
 
 @keyframes moveText {
