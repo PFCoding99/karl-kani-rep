@@ -6,6 +6,7 @@ class Nav extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `<style>
       nav {
+        
         padding: 15px;
         height: 100px;
         display: flex;
@@ -15,6 +16,7 @@ class Nav extends HTMLElement {
       }
 
       .NavUL {
+        text-size:10px;
         padding: 0;
         list-style-type: none;
         display: flex;
@@ -22,8 +24,7 @@ class Nav extends HTMLElement {
       }
 
       a {
-        font-size: 29px;
-        font-weight: 450;
+        font: caption;
         margin: 0 5px;
         color: #000000;
         text-decoration: none;
