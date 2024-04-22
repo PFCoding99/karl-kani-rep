@@ -42,16 +42,33 @@
     transform: translateX(-100%);
   }
 }
-.bibcaption {
-  padding: 15px;
-  display: inline-block;
+.container {
+  padding: 100px;
+  width: 1700px;
+  height: 400px;
   color: rgba(234, 234, 234, 255);
   background-color: black;
-  
-  font:;
   font-weight: 450;
   font-size: 16px;
   flex-direction: row;
-
- 
 }
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+.bibimage {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  height: auto; 
+  display: block; 
+}
+</style>
