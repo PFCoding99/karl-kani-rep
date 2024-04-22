@@ -8,8 +8,8 @@
 
 .header {
   padding: 15px;
-  display: inline-block; 
-  color: rgba(234,234,234,255);
+  display: inline-block;
+  color: rgba(234, 234, 234, 255);
   background-color: black;
   text-transform: uppercase;
   white-space: nowrap;
@@ -17,7 +17,7 @@
 }
 
 .marquee-content {
-  overflow: hidden; 
+  overflow: hidden;
   white-space: nowrap;
   font-size: 29px;
   font: caption;
@@ -41,4 +41,16 @@
   100% {
     transform: translateX(-100%);
   }
+}
+.bibcaption {
+  padding: 15px;
+  display: inline-block;
+  color: rgba(234, 234, 234, 255);
+  background-color: black;
+  text-transform: uppercase;
+  font: caption;
+  font-weight: 450;
+  font-size: 17px;
+
+ 
 }
