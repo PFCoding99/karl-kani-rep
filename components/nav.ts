@@ -5,8 +5,9 @@ class Nav extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<style>
-      nav {
-        
+      @media screen and (max-width: 768px)
+       nav {
+           
         padding: 15px;
         height: 100px;
         display: flex;
@@ -38,7 +39,9 @@ class Nav extends HTMLElement {
     </style>
     <header>
       <nav class="myNav">
-        <a href="index.html"><img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" width="220px" height="90px"></a>
+      <a href="index.html" class="logo-link">
+      <img src="../assets/img/karl-kani-logo-v1_b66bf179-b568-4392-9e4b-dee17e84d634.png" alt="Karl Kani Logo" class="logo-img">
+    </a>
         <ul class="NavUL">
           <li><a href="BIB.html">B.I.B COLLECTION</a></li>
           <li><a href="LIFE.html">LIFE COLLECTION</a></li>
