@@ -45,9 +45,9 @@ class Nav extends HTMLElement {
           <li><a href="women.html">WOMEN</a></li>
           <li><a href="acc.html">ACCESSORIES</a></li>
           <li><a href="sale.html">SALE</a></li>
-          <a href="basket.html"><img src="../assets/img/basketkarlkani.png</a></li>
+          
+        </ul><a href="basket.html"><img src="../assets/img/basketkarlkani.png
           <a href="account.html><img src="../assets/img/accountkarlkani.png
-        </ul>
       </nav>
     </header>`;
     }

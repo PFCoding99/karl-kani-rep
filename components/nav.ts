@@ -5,7 +5,7 @@ class Nav extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `<style>
-      @media screen and (max-width: 768px)
+      
        nav {
            
         padding: 15px;
