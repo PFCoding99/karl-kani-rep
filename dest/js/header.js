@@ -66,7 +66,7 @@ class Header extends HTMLElement {
                     <span class="header">Get FREE domestic US shipping on Karl Kani orders over $200! Shop now and save.</span>
                 </div>
             </header>
-        `;
+        
     }
 }
 
