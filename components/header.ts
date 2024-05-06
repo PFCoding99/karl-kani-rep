@@ -10,11 +10,11 @@ class Header extends HTMLElement {
                     margin: 0;
                 }
                 
-                marquee-content:hover .header {
+                .marquee-content:hover .header {
                     animation-play-state: paused;
                 }
                 
-                header {
+                .header {
                     padding: 15px;
                     display: inline-block;
                     color: rgba(234, 234, 234, 255);
@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                     animation: moveText 25s linear infinite;
                 }
                 
-                marquee-content {
+                .marquee-content {
                     overflow: hidden;
                     white-space: nowrap;
                     font-size: 29px;
@@ -37,7 +37,7 @@ class Header extends HTMLElement {
                     background-color: black;
                 }
                 
-                flex {
+                .flex {
                     display: flex;
                     flex-direction: row;
                 }
