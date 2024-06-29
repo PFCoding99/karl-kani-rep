@@ -22,7 +22,7 @@ class Nav extends HTMLElement {
       }
 
       a {
-        font-size: 29px;
+        font-size: 22px;
         font-weight: 350;
         margin: 0 5px;
         color: #000000;
