@@ -1,10 +1,10 @@
 "use strict";
 class Nav extends HTMLElement {
-    constructor() {
-        super();
-    }
-    connectedCallback() {
-        this.innerHTML = `<style>
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `<style>
       nav {
         padding: 15px;
         height: 100px;
@@ -46,10 +46,10 @@ class Nav extends HTMLElement {
           <li><a href="acc.html">ACCESSORIES</a></li>
           <li><a href="sale.html">SALE</a></li>
           
-        </ul><a href="basket.html"><img src="../assets/img/basketkarlkani.png
+        </ul><a href="basket.html"><img src="../assets/img/basketkarlkani.png" width="80px" height="80px"></a>
           <a href="account.html><img src="../assets/img/accountkarlkani.png
       </nav>
     </header>`;
-    }
+  }
 }
 customElements.define("nav-component", Nav);
