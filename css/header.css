@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: azure;
+  }
+}
 .container {
   padding: 100px;
   max-width: 100%;
@@ -14,7 +19,6 @@
 .text {
   flex: 1;
   margin-left: 34px;
- 
 }
 
 .image {
@@ -23,6 +27,6 @@
   margin-left: 34px;
 }
 
-.saletext{
+.saletext {
   color: crimson;
 }
