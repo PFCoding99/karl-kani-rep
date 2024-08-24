@@ -1,6 +1,4 @@
-* {
-  margin: 0;
-}
+
 
 .marquee-content:hover .header {
   animation-play-state: paused;
